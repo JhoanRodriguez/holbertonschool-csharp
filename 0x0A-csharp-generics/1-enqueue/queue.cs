@@ -12,7 +12,7 @@ public class Queue<T>
     ///<summary>Checks type of parameter.</summary>
     public string CheckType()
     {
-        return (typeof(T));
+        return (typeof(T).ToString());
     }
     ///<summary>Adds to a queue.</summary>
     public void Enqueue(T val)
