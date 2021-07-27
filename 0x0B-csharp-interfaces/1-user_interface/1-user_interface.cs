@@ -26,15 +26,16 @@ class TestObject : IInteractive, IBreakable, ICollectable
     public int durability {get; set;}
     public bool isCollected {get; set;}
 
+    /// <summary> Takes place when the object interacts with something </summary>
     public void Interact(){
 
     }
-
+    /// <summary> Takes place when the object brakes. </summary>
     public void Break(){
 
     }
-
-    puiblic void Collect(){
+    /// <summary> Takes place when the object collects something.</summary>
+    public void Collect(){
         
     }
 
